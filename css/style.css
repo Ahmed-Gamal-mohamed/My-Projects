@@ -1,0 +1,354 @@
+.option-box {    
+    position: fixed;
+    top: 300px;
+    left: 0;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.option-box .color-option {
+    background-color: #333;
+    float: left;
+    color:#FFF;
+    padding: 10px 0 0;
+    width: 180px;
+    display: none;
+}
+
+.option-box .color-option h4 {margin-left: 5px;}
+
+.option-box .color-option ul li {
+    width:20px;
+    height:20px;
+    display: inline-block;
+    background-color: #00F;
+    margin-left: 5px;
+}
+
+.option-box .gear-check {color:#FFF; padding: 5px;}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {background-color: #222222;}
+
+.navbar-right .dropdown-menu {right: auto; left: 0;}
+
+.navbar form button {color:#AAA;}
+
+.navbar form button:hover {color:#333;}
+
+.dropdown-menu {background-color: #222222;min-width: 200px;}
+
+.dropdown-menu > a {
+    color:#FFF; 
+    padding: 6px 20px;
+}
+
+.dropdown-menu > a:hover,.dropdown-menu > a:focus {
+    
+    background-color:  #0895D1;
+    color:#FFF;
+    padding-left: 30px;
+} 
+
+.slides .carousel-inner .carousel-caption
+{
+    bottom: 110px;
+    padding-right: 40px;
+    padding-left: 20px;
+    background: rgba(3,3,3,.4);
+}
+
+.slides .carousel-inner .carousel-caption p {line-height: 2;}
+
+.features {background-color: #EEE;margin-top: 50px}
+
+.features .h1,.statistics .h1,.price .h1  {margin-bottom: 40px;}
+
+.features .feat {margin-bottom: 50px;}
+
+.features .feat i {margin-bottom: 20px;font-size: 27px;}
+
+.features .feat h5 {font-size: 18px;color:#666;}
+
+.features .feat p {line-height: 1.7;padding: 6px;}
+
+.testmonails .h1 {margin-bottom:30px;}
+
+.testmonails span {
+    font-size: 20px;
+    font-weight: bold;
+    color:#666;
+}
+
+.testmonails p {line-height: 2}
+
+.testmonails .carousel-indicators {
+    position: static;
+    margin-left: auto;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.testmonails .carousel-indicators li {
+    text-indent: 0;
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    margin: 6px;
+}
+
+.testmonails .carousel-indicators li img {max-width: 100%;border-radius: 50%;}
+
+.about {padding-top: 50px;}
+
+.about p {font-size: 25px;color:#888;}
+
+.price {background-color: #EEE;}
+
+.price .price-table {
+    background-color: #FFF;
+    padding: 10px;
+    border: 2px solid #DDD;
+    margin-bottom: 20px;
+}
+
+.price .price-table:hover p {   
+    -webkit-transform: scale(1.1,1.1) rotate(360deg);
+       -moz-transform: scale(1.1,1.1) rotate(360deg);
+         -o-transform: scale(1.1,1.1) rotate(360deg);
+            transform: scale(1.1,1.1) rotate(360deg);
+}
+
+.price .price-table h2 {margin-bottom: 20px;}
+
+.price .price-table p {
+    font-size: 30px;
+    font-weight: bold;
+    color:#666;
+    border:1px solid #CCC;
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+    background-color: #EEE;
+    line-height: 100px;
+}
+
+.price .price-table ul {line-height: 250%;font-size: 18px;}
+
+.our-team { 
+    background: url('../image/02.jpg') no-repeat center center fixed;
+    width: 100%;
+    min-height: 600px;
+}
+
+
+.our-team .overlay { 
+    background: rgba(2,2,2,.7);
+    color: #FFF;
+    min-height: 600px;
+}
+
+.our-team .h1,.our-skills .h1  {margin-bottom: 60px;}
+
+.our-team .person {margin-bottom: 40px;}
+
+.our-team .person i {padding: 3px;}
+
+.subscribe {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #EEE;
+} 
+
+.subscribe .h1 {
+    color:#888;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.subscribe p {margin-bottom: 30px;font-size: 25px;}
+
+.subscribe .form-inline {display: block;}
+
+.subscribe .form-control {width: 30%;}
+
+.statistics {
+    background: url("../image/header-design.jpg") no-repeat center center fixed;
+    min-height: 400px;
+    width:100%;
+}
+
+.statistics .stats {
+    background: rgba(2,2,2,.8);
+    color: #B6B5B5;
+    min-height: 400px;
+}
+
+.statistics .stats .data {margin-bottom: 20px;}
+
+.statistics .stats .data:hover {color:#FFF;}
+
+.statistics p { 
+   font-size: 50px;
+   margin-top: 20px;
+   margin-bottom: 0;
+}
+
+.our-skills .progress {height:30px;margin-bottom: 20px;}  
+
+.our-skills .progress-bar {text-align: left;text-indent: 10px;} 
+
+.contact-us {
+     background: url("../image/Low-voltage-design-and-engineering.jpg") no-repeat center center fixed;
+    min-height: 500px;
+}
+
+.contact-us .overlay {
+    background: rgba(2,2,2,.7);
+    color: #B6B5B5;
+    min-height: 500px;
+    color:#FFF;
+}
+.contact-us p {margin-bottom: 50px;font-size: 25px;}
+
+.contact-us textarea {height: 92px;}
+
+.our-client {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #EEE;
+}
+
+.our-client img:hover {opacity: 1;}
+
+.our-client img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    opacity: .5;
+}
+
+.footer {
+    background-color: #111;
+    color:#AAA;
+    padding-top: 40px;
+}
+
+.footer h3 {letter-spacing: 1px;margin: 30px 0 20px;}
+
+.footer .column {overflow: hidden;}
+
+.footer .column li{
+    width:33.33333%;
+    float: left;
+    padding: 5px 0; 
+}
+
+.footer .icons  {overflow: hidden;}
+
+.footer .icons li {float: left;padding: 3px;}
+
+.footer .img-thumbnail {
+    background: rgba(0,0,0,.2);
+    border:1px solid #444;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.footer .copyright {
+    background-color: #333;
+    color:#AAA;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.loading-overlay {
+    background: #2C3E50;
+    position: fixed;    
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+    z-index: 999999999;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 300px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+#scrolltop {
+    background-color: #000;
+    color:#FFF;
+    padding: 13px 15px;
+    position: fixed;
+    right:10px;
+    bottom: 5px;
+    z-index: 999999;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+
+.contact-us,.our-team,.statistics   {
+    
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+.price .price-table p,.dropdown-menu > a,
+.testmonails .carousel-indicators li,
+.statistics .stats .data ,
+.our-client img{
+    -webkit-transition:all .7s ease;
+       -moz-transition:all .7s ease;
+         -o-transition:all .7s ease;
+            transition:all .7s ease;
+    
+}
+
+.features,.testmonails,.statistics .stats, .contact-us .overlay  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.price,.our-team .overlay,.our-skills {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}

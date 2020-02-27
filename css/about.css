@@ -1,0 +1,23 @@
+.about-us {margin-top: 50px; margin-bottom: 50px;}
+
+.about-us h1 {font-weight: bold; font-size: 60px; margin-bottom: 30px;}
+
+.about-us p {margin-bottom: 30px; font-size: 25px; }
+
+.about-features {margin-bottom: 50px;}
+
+.about-features .feat {margin-bottom: 30px;}
+
+.about-features i {margin-bottom: 20px;}
+
+.about-features h2 {font-weight: bold;}
+
+.about-features p {font-size: 18px; line-height: 1.7}
+
+.about-ceo {background-color: #EEE; padding-top: 50px; }
+
+.about-ceo h2 {font-weight: bold; padding-top: 10px;}
+
+.about-ceo p {line-height: 1.8; font-size: 20px;}
+
+.about-ceo button {background-color: #333; border: 1px solid #333; margin-bottom: 20px;}

@@ -1,0 +1,11 @@
+.faq {margin-top: 50px;}
+
+.faq h1 {font-weight: bold; font-size: 50px;}
+
+.faq hr {width: 60%; opacity: .5}
+
+.accordion {padding-top: 30px; padding-bottom: 40px;}
+
+.accordion .card {margin-bottom: 5px; color:#333}
+
+.accordion .card h2 button {color:#222;}
